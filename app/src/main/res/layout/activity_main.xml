@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
+    android:background="@color/teal_700"
     tools:context=".MainActivity">
 
     <TextView
@@ -54,28 +54,29 @@
         android:layout_height="wrap_content"
         android:text="@string/tLogin"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="14dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.54" />
 
     <EditText
         android:id="@+id/name"
         android:layout_width="250dp"
         android:layout_height="40dp"
+        android:background="@drawable/shapee"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/tEmail"
+        android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:background="@drawable/shapee"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.229"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.597"
@@ -87,14 +88,14 @@
         android:layout_height="wrap_content"
         android:text="@string/tPassword"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="14dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.647" />
 
     <EditText
         android:id="@+id/Pass"

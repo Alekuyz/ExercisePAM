@@ -41,16 +41,16 @@ public class ActivityRegister extends AppCompatActivity {
 
 
                 if (ednama.getText().toString().length()==0){
-                    ednama.setError("Nama Diperlukan!!");
+                    ednama.setError("Nama Wajib Di isi!!");
                 }
                 if (edemail.getText().toString().length()==0){
-                    edemail.setError("Email Diperlukan!!");
+                    edemail.setError("Email Wajib Di isi!!");
                 }
                 if (edpass.getText().toString().length()==0){
-                    edpass.setError("Password Diperlukan!!");
+                    edpass.setError("Password Wajib Di isi!!");
                 }
                 if (edrepass.getText().toString().length()==0){
-                    edrepass.setError("Re-Password Diperlukan!!");
+                    edrepass.setError("Re-Password Wajib Di isi!!");
                 }
                 else {
                     if (edpass.getText().toString().equals(edrepass.getText().toString())) {

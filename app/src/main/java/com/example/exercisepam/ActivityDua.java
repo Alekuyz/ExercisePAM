@@ -34,21 +34,21 @@ public class ActivityDua extends AppCompatActivity {
         time = edttime.getText().toString();
 
         if (edttask.getText().toString().length()==0){
-            edttask.setError("Task Diperlukan!!");
+            edttask.setError("Task Wajib Di isi!!");
         }
         if (edtjenis.getText().toString().length()==0){
-            edtjenis.setError("Jenis Task Diperlukan!!");
+            edtjenis.setError("Jenis Task Wajib Di isi!!");
         }
         if (edttime.getText().toString().length()==0){
-            edttime.setError("Time Task Diperlukan!!");
+            edttime.setError("Lama Task Wajib Di isi!!");
         }
         if (task.isEmpty() || jenis.isEmpty() || time.isEmpty()) {
             Toast t = Toast.makeText(getApplicationContext(),
-                    "Isi semua data!!!", Toast.LENGTH_LONG);
+                    "Data tidak boleh kosong!!!", Toast.LENGTH_LONG);
             t.show();
         } else {
             Toast t = Toast.makeText(getApplicationContext(),
-                    "Berhasil", Toast.LENGTH_LONG);
+                    "Data Tersimpan", Toast.LENGTH_LONG);
             t.show();
 
             Bundle b = new Bundle();
@@ -99,11 +99,11 @@ public class ActivityDua extends AppCompatActivity {
 
                 if(task.isEmpty() || jenis.isEmpty() || time.isEmpty())
                 {
-                    Snackbar.make(view, "Isi semua Data!", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view, "Data tidak boleh kosong!", Snackbar.LENGTH_LONG).show();
                 }
                 else{
                     Toast t = Toast.makeText(getApplicationContext(),
-                            "Berhasil", Toast.LENGTH_LONG);
+                            "Data Tersimpan", Toast.LENGTH_LONG);
                     t.show();
 
                     Bundle b = new Bundle();
