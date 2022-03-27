@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="var1">Selamat Datang di To Do App</string>
+    <string name="tLogin">Nama</string>
+    <string name="tEmail">Masukkan Nama</string>
+    <string name="tPassword">Password</string>
+    <string name="bsignin">Masukkan Password</string>
+    <string name="tData">Sign-in</string>
+    <string name="txmessage">New To Do App?</string>
+    <string name="txregister">Register</string>
+    <string name="label">Selamat Datang</string>
+    <string name="task">Task</string>
+    <string name="mtask">Masukkan Task</string>
+    <string name="jenistsk">Jenis Task</string>
+    <string name="jtask">Masukkan Jenis Task</string>
+    <string name="ttask">Time task</string>
+    <string name="ltask">Masukan Lama Task</string>
+    <string name="welcomepeople">Selamat Datang</string>
+    <string name="succesinsert">Berhasil</string>
+    <string name="succestask">Ini Task</string>
+    <string name="succesjenis">Ini Jenis Task</string>
+    <string name="succestime">Ini Lama Task</string>
+    <string name="pleaseinsert">Task Harus Diisi!</string>
+    <string name="submit">Submit</string>
+    <string name="logout">LogOut</string>
+    <string name="sregister">Register</string>
+    <string name="inputnama">Masukkan Nama</string>
+    <string name="inputpassword">Masukkan Password</string>
+    <string name="semail">Email</string>
+    <string name="srepass">Re - Password</string>
+    <string name="inputmail">Masukkan Email</string>
+    <string name="newtodo">New to Do App?</string>
+    <string name="thisname">username</string>
+
+</resources>
